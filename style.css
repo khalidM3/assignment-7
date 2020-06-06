@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  font-size: 20pt;
+}
+
+body{
+  background-color: rgba(128, 128, 128, 0.801);
+  text-align: center;
+}
+
+h1 {
+  font-size: 36pt;
+}
+
+label {
+  font-size: 26pt;
+}
+div {
+  margin-top: 2rem;
+}
+input {
+  width:20rem;
+  height:3rem;
+}
+button {
+  margin-top: 2rem;
+  width:10rem;
+  height:2rem;
+  font-size: 14pt;
+  background-color: green;
+}
