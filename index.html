@@ -10,17 +10,17 @@
 <body>
   <h1> How many gallon per mile does your car use?</h1>
  
-  <form id="form">
+  <form id="form" onsubmit="handleSubmit()">
     <div><label>Enter miles driven</label> <br> </div>
     <div><input id="miles" name="miles" type="number"></input><br> </div>
 
     <div> <label>Enter gallons of gas used</label> <br></div>
     <div> <input id="gallons" name="gallons" type="number"></input><br> </div>
     <div> <label>Miles Per Gallon</label> <br> </div>
-    <div> <input id="mpg" name="mpg" value="" > </input> <br> </div>
+    <div> <input id="mpg" name="mpg" value="" disabled> </input> <br> </div>
    <button type="submit">Caculate MPG </button>
   </form>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   <script src="app.js"></script>
 </body>
 </html>

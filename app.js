@@ -1,12 +1,11 @@
 'use strict';
 
-
-$('#form').submit(function () {
+function handleSubmit() {
   event.preventDefault();
-  var miles = $('#miles').val()
-  var gallons = $('#gallons').val();
-  var sum = miles / gallons;
-  $('#mpg').attr('value' , sum) 
-})
-
-
+  console.log('handleSubmit')
+  var miles = document.getElementById("miles").value;
+  var gallons = document.getElementById("gallons").value;
+  var milesPerGallon = miles / gallons;
+  document.getElementById("mpg").value = milesPerGallon;
+  console.log(miles, gallons)
+}
